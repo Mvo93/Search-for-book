@@ -1,0 +1,36 @@
+#root{
+  position: relative;
+}
+.App{
+  background: #ed836e;
+  background: -webkit-radial-gradient(circle farthest-side at center center, #ed836e 0%, #e32f21 100%);
+  background: -moz-radial-gradient(circle farthest-side at center center, #ed836e 0%, #e32f21 100%);
+  background: radial-gradient(circle farthest-side at center center, #ed836e 0%, #e32f21 100%);
+.App-header{
+ 
+    h1{
+      padding-top: 4vh;
+      margin-bottom:5vh;
+      color: rgb(252, 252, 252);
+      text-align: center;
+      -webkit-text-shadow: -5px 0px 1px rgba(0, 0, 0, 0.75);
+      -moz-text-shadow: -5px 0px 1px rgba(0, 0, 0, 0.75);
+      text-shadow: -5px 0px 1px rgba(0, 0, 0, 0.75);
+      font-size: 6vh;
+      word-spacing: 16px;
+      letter-spacing:0.5em;
+      text-decoration: underline;
+     transition: 1000ms;
+    }
+  }
+ }
+  h1:hover{
+  color: #0418b1;
+}
+
+@media( max-width:500px){
+  h1{
+    
+    letter-spacing:0.2em;
+  }
+}

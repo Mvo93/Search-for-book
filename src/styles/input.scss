@@ -1,0 +1,13 @@
+.input_info{
+    margin-top: 15vh;
+    width: 80vw;
+    margin: 0 10vw;
+}
+.selects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .info_select{
+        margin: 0px 2vw;
+    }
+}

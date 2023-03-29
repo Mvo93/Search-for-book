@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Shippori+Mincho:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Shippori+Mincho:wght@600&display=swap');
+.carder{   
+   
+    background-color: rgb(248, 246, 246);
+    box-shadow: 3px 3px 10px 5px rgb(15, 15, 15);
+    margin:3vh 2vw;
+    width: 15vw;
+   .imgDIV{
+    padding: 10px;
+    text-align: center;
+    .dataimg{
+        height: 18vh;
+        width: 6vw;
+        box-shadow: 3px 3px 6px 3px rgb(0, 0, 0);
+    }
+   }
+   .bodyart{
+
+   padding: auto;   
+   }
+}
+ul{
+    font-size: 1vw;
+    padding: 5px;
+}
+li{
+    text-align: center;
+    list-style-type: none;
+ 
+}
+.author{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Shippori Mincho', serif;
+    
+}
+.carder:hover{
+    cursor: pointer
+}
+
+@media( max-width:500px){
+    .carder{  
+        transform: scale(1.2); 
+        width: 60vw;
+        margin-top:15vh;
+        margin-left: auto;
+        margin-right: auto;
+       
+       .imgDIV{
+        transform: scale(1.4);
+        padding-top: 4.5vh;
+        text-align: center;
+        .dataimg{
+            width: 10vh;
+            box-shadow: 3px 3px 6px 3px rgb(77, 76, 75);
+        }
+       }
+    }
+    ul{
+        font-size:2.5vh;
+       
+    }
+    li{
+        text-align: center;
+        list-style-type: none;
+     
+    }
+    .author{
+        font-family: 'Arimo', sans-serif;
+        font-family: 'Shippori Mincho', serif;
+        
+    }
+    .bodyart{
+        min-height: 24vh; 
+        }
+     
+    
+}
+

@@ -1,0 +1,33 @@
+.mainmodal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.modalimg{
+  height: 25vh;
+  width: 8vw;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px 5px black;
+}
+.modalimgDiv{
+  margin-left: auto;
+  margin-right:auto;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+}
+.authors{
+  text-decoration: underline;
+}
+
+@media(max-width:500px){
+    .info{
+      font-size: 5vh;
+    }
+    .modalimg{
+      height: 30vh;
+      width: 18vw;
+  
+    }
+}

@@ -1,0 +1,41 @@
+.outside_main{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+    min-height: 90vh; 
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px 5px black;
+    p{
+        text-align: center;
+    }
+    h2{
+        font-size: 7vh;
+        margin-top: 10vh;
+        text-align: center;
+    }
+ 
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 89vw;
+    display: flex;
+    flex-wrap:wrap;  
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+@media( max-width:500px){
+    .outside_main{
+        width: 85vw;
+    }
+    .main{
+        width: 80vw;    
+        flex-direction: column;
+    }
+    
+}
+}
+.loadmore{
+    text-align: center;
+    margin-bottom: 2vh;
+}
